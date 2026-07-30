@@ -3,3 +3,12 @@
 
 # Claude related files
 CLAUDE.md
+
+# cache files
+/pages/__pycache__
+/steps/__pycache__
+/__pycache__
+/.pytest_cache
+
+# venv
+/.venv
