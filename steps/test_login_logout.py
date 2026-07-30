@@ -35,5 +35,5 @@ def click_logout(mail_inbox_page):
 
 
 @then("email login page shall be displayed")
-def check_inbox(login_page):
+def check_login_page(login_page):
     expect(login_page.login_page_content).to_be_visible()
